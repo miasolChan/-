@@ -1,0 +1,168 @@
+
+.nav{
+    width: 100%;
+    height: 14vh;
+    background-color: #303030;
+    padding-top: 1vh;
+}
+.eat{
+    width: 100%;
+    height: 40vh;
+    margin: 3vh 0;
+}
+.food{
+    width: 100%;
+    height: 40vh;
+    margin-top: 3vh;
+}
+#site-name{
+    width: 20vh;
+    height: 20vh;
+    overflow: hidden;
+    margin-left: 20VH;
+}
+.div-img img{
+    width: inherit;
+    height: inherit;
+    margin: 0 auto;
+}
+#site-poem{
+    width: 30vh;
+    overflow: hidden;
+    margin-top: 3vh;
+    margin-left: 5vh;
+}
+#site-poem img{
+
+}
+.left-part{ 
+    width: 50%;
+}
+.right-part{
+    width: 50%;
+    display: flex;
+    flex-direction:row;
+    justify-content: right;
+    padding-left: 3vh;
+}
+.right-part2{
+    flex-direction: column;
+    justify-content: right;
+    margin-left: auto ;
+}
+.logo-small{
+    width: 13vh;
+    overflow: hidden;
+    margin-right: 15VH;
+}
+
+.eat-box{
+    height: 30vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 10vh;
+}
+.eat-name{
+    width: auto;
+    margin: 9vh auto;
+}
+.eat-name img{
+    height: 20vh;
+    display: flex;
+}
+.eat-img{
+    height: 40vh;
+    position: relative;
+}
+footer{
+    margin-top: 13vh;
+    height: 10vh;
+    background-color: #303030;
+}
+.play-box{
+    height: 30vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 8vh;
+
+}
+.box1{
+    position: relative;
+    height: 40vh;
+    background-color: black;
+    overflow: hidden;
+}
+.box2{
+    padding-top: 35vh;
+    padding-left: 27.7vh;
+    position: absolute;
+    top: 9vh;
+    opacity: 0;
+    cursor: pointer;
+    transition: padding-top 1.5s , opacity 1.7s;
+    -moz-transition: padding-top 1.5s, opacity 1.7s;	/* Firefox 4 */
+    -webkit-transition: padding-top 1.5s, opacity 1.7s;	/* Safari 和 Chrome */
+    -o-transition: padding-top 1.5s, opacity 1.7s;	/* Opera */
+}
+.box2:hover{
+    padding-top: 0vh;
+    opacity: 1;
+    transition-duration: 0s;
+    transition: padding-top 1.5s , opacity 1.5s;
+    -moz-transition: padding-top 1.5s, opacity 1.5s;	/* Firefox 4 */
+    -webkit-transition: padding-top 1.5s, opacity 1.5s;	/* Safari 和 Chrome */
+    -o-transition: padding-top 1.5s, opacity 1.5s;	/* Opera */
+}
+.cover-box{
+    height: 40vh;
+    width: 150vh;
+    position: absolute;
+    overflow: hidden;
+    top: 0vh;
+}
+.cover{
+    height: inherit;
+    width: inherit;
+    background-color: rgba(29, 29, 29, 0) ;
+}
+.cover-fadein{
+    animation: fideinAnim 1.5s;
+    animation-fill-mode: forwards;
+}
+.cover-fadeout{
+    animation: fideoutAnim 1.5s;
+    animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes fideinAnim /* Safari and Chrome */
+{
+    from {background-color: rgba(29, 29, 29, 0);}
+    to {background-color: rgba(29, 29, 29, 0.5);}
+}
+@-webkit-keyframes fideoutAnim /* Safari and Chrome */
+{
+    from {background-color: rgba(29, 29, 29, 0.5);}
+    to {background-color: rgba(29, 29, 29, 0);}
+}
+.back-btn{
+    width: inherit;
+    height: 10vh;
+    padding-top: 3vh;
+}
+.back-btn button{
+    display: flex;
+    margin-left: auto;
+    justify-content: right;
+    margin-right: 10vh;
+}
+.btn-default{
+    color: rgba(233, 233, 233,0.7);
+    border-color: #c2c2c2;
+}
+.btn-default:hover{
+    color: rgb(233, 233, 233);
+    border-color: #c2c2c2;
+}

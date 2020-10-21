@@ -1,0 +1,50 @@
+.bg{
+    background-image: url(../img/food_bg_1.jpg);
+    height: 5000px;
+}
+.logo{
+    display: flex;
+    justify-content: right;
+    margin-left: auto;
+}
+#food-banner{
+    margin-top: 15vh;
+}
+.food-box{
+    margin-top: 25vh;
+}
+#food-box{
+    display: flex;
+    margin-right: auto;
+    justify-content: left;
+    width: 60vh;
+    margin-top: 55vh;
+}
+.food-head{
+    width: inherit;
+}
+.food-intro{
+    color: #343434;
+    display: flex;
+}
+.food-intro p{
+    font-size: large;
+    font-weight: 700;
+    font-family: 'Times New Roman', Times, serif;
+    align-self: center;
+}
+.img-part{
+    padding: 2vh 0 2vh 0;
+}
+.food-divide{
+    width: 50vh;
+    height: auto;
+}
+.food-img{
+    width: 50vh;
+}
+.title-right img{
+    display: flex;
+    justify-content: right;
+    margin-left: auto;
+}

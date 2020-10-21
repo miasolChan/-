@@ -1,0 +1,39 @@
+.bg{
+    background-image: url(../img/attrac-bg.jpg);
+}
+#atr-banner{
+    margin-top: 15vh;
+}
+#atr-box{
+    display: flex;
+    margin-left: auto;
+    justify-content: right;
+    width: 100vh;
+}
+#atr-city-intro{
+    margin-top: 30vh;
+    padding: 0 10vh;
+    font-size: large;
+    font-weight: 700;
+}
+#atr-intro{
+    margin-top: 20vh;
+}
+.atr-item{
+    display: flex;
+    flex-direction: column;
+    margin-top: 3vh;
+}
+.slider-shell{
+    padding: 3vh 0;
+}
+.carousel-item{
+    height: 40vh;
+    overflow: hidden;
+}
+.slider-box{
+    padding: 0 10vh;
+}
+.item-box{
+    padding: 0 10vh;
+}

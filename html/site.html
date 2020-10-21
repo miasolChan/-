@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Boosrtarp -->
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="../lib/bootstrap-4.5.0-dist/bootstrap-4.5.0-dist/css/bootstrap.min.css" ">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+        <!-- css -->
+        <link rel="stylesheet" href="../css/main_style.css">
+        <link rel="stylesheet" href="../css/site_style.css">
+        <!-- 浙江地图 -->
+        <!-- <script src="../lib/echarts.min.js"></script>
+        <script src="../lib/zhejiang.js"></script> -->
+        <!-- js  -->
+        <script src="../js/anim.js"></script>
+        <script src="../js/cityData.js"></script>
+        <script src="../js/update.js"></script>
+        <script src="../js/change.js"></script>
+        <title>地点主页</title>
+    </head>
+<body>
+    <section class="nav">
+        <div class="flex-row flex-just-ends">
+            <div class="left-part">
+                <div id="site-name" class="div-img">
+                    <img src="">
+                </div>
+            </div>
+            <div class="right-part">
+                <div id="site-poem" class="div-img">
+                    <img src="">
+                </div>
+                <div class="right-part2">
+                    <div class="logo-small div-img">
+                        <img src="../img/logo_small.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- 美食 -->
+    <section class="eat">
+        <div class="eat-box ">
+            <div class="eat-name">
+                <img src="" alt="">
+            </div>
+            <div class="box1" onmouseover="coverIn(0)" onmouseout="coverOut(0)" onclick="changeToFood()">
+                <div class="eat-img div-img">
+                    <img src="../img/食在杭州.png" alt="">
+                </div>
+                <div class="cover-box">
+                    <div class="cover"></div>
+                </div>
+                <div class="box2" >
+                    <img src="" alt="">
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- 游览 -->
+    <section class="play">
+        <div class="play-box ">
+            <div class="box1" onmouseover="coverIn(1)" onmouseout="coverOut(1)" onclick="changeToAtr()">
+                <div class="eat-img div-img">
+                    <img src="../img/游在杭州.png" alt="">
+                </div>
+                <div class="cover-box">
+                    <div class="cover"></div>
+                </div>
+                <div class="box2" >
+                    <img src="">
+                </div>
+            </div>
+            <div class="eat-name">
+                <img src=" " alt="">
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="back-btn">
+            <button type="button" class="btn btn-default" onclick="window.open('../html/index.html')">
+                <a href="../html/index.html"></a>
+                返回首页
+            </button>
+        </div>
+    </footer>
+</body>
+</html>

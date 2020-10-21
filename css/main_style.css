@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+:root{
+    --maincolor:#455b6b;
+    --bg:#171717;
+    --text-color:#d8d8d8;
+}
+body,html{
+    height: fit-content;
+    cursor:default;
+    color: var(--text-color);
+}
+
+.flex-row{
+    display: flex;
+    flex-direction: row;
+    flex:1 1;
+}
+.flex-col{
+    display: flex;
+    flex-direction: column;
+    flex:1 1;
+}
+.flex-just-ends{
+  justify-content: space-between;
+}
+.flex-just-right{
+    justify-content: right;
+  }
+.bg {
+    width: 100%;
+    height: 3938px;
+    background-image: url(../img/main-bg.png);
+    background-size: cover;
+    z-index: -1;
+}
+header{
+    width: 100%;
+    height: auto;
+    margin-top: 1%;
+}
+.logo{
+    width: 200px;
+    height: 200px;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+.logo img{
+    width: 100%;
+    height: 100%;
+}
+#banner{
+    padding-top: 4%;
+    margin-bottom: 5%;
+}
+.wraper{
+    width: 70%;
+    margin: 0 auto;
+
+}
+#title{
+    margin-bottom: 5%;
+}
+#title img{
+    display: flex;
+    margin: 0 auto;
+}
+.content img{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+#map-nav{
+    width: 100%;
+    height: auto;
+}
+.subhead{
+    width: auto;
+    height: auto;
+}
+.subhead img{
+    display: flex;
+    margin: 0 auto;
+}
+#map-box{
+    text-align: center; 
+    top: -5vh;
+}
+#zj-map{
+    width: 95%;
+    height: 80vh;
+    margin: 0 auto;
+    border-radius: 15vh;
+    overflow: hidden;
+    background-color: #d8d8d8;
+}
+#city-detail{
+    padding-top: 5vh ;
+}
+#city-name{
+    
+}
+.city-bg{
+    width: 310px;
+    height: 100px;
+    margin: 0 auto;
+}
+#city-name{
+    color: var(--text-color);
+    font-size: 2rem;
+    line-height:100px;
+    width: inherit;
+    text-align: center;
+}
+@-webkit-keyframes cityAnim /* Safari and Chrome */
+{
+    from {color: rgba(216, 216, 216, 0.3);}
+    to {color: rgba(216, 216, 216, 1);}
+}
+#city-name{
+    
+}
+.city-anim{
+    animation:cityAnim 1.5s ;
+    -moz-animation:cityAnim 1.5s; /* Firefox */
+    -webkit-animation:cityAnim 1.5s; /* Safari and Chrome */
+    -o-animation:cityAnim 1.5s; /* Opera */
+}
+#city-intro{
+    width: 60%;
+    margin: 2vh auto 0 auto;
+}
+#city-intro p{
+    font-weight: 300;
+    font-size: 1.5rem;
+}
+#spec{
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 10vh;
+}
+.spec-item{
+    overflow: hidden;
+    width: 45%;
+    height: fit-content;
+    cursor: pointer;
+    
+}
+.spec-item img:hover{
+    transform: scale(1.05);
+    opacity: 1;
+}
+.spec-item img{
+    width: 100%;
+    height: 40vh;
+    opacity: 0.8;
+    -moz-transition :all .35s ease;
+    -webkit-transition:all .35s ease;
+	transition: all .35s ease;
+}
